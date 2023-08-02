@@ -1,4 +1,5 @@
 import Buttons from "./pages/Buttons";
+import Tables from "./pages/Tables";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
             <li className="cursor-pointer">
               <a href="#buttons">Buttons</a>
             </li>
+            <li className="cursor-pointer">
+              <a href="#tables">Tables</a>
+            </li>
           </ul>
         </div>
 
@@ -20,6 +24,7 @@ function App() {
           <div className="flex flex-col gap-5 w-max-[600px]">
             <Buttons />
             <hr />
+            <Tables />
           </div>
         </div>
       </div>
